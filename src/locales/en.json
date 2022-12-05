@@ -157,7 +157,8 @@
     "NAME": "Andrey Komissarov",
     "POINT1": "Server deploy",
     "POINT2": "Basic structure of the application",
-    "POINT3": "API requests"
+    "POINT3": "API requests",
+    "POINT4": "Registration"
   },
   "SEARCH": {
     "PLACEHOLDER": "Search...",

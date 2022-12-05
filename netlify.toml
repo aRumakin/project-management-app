@@ -1,0 +1,7 @@
+[build]
+  command = "CI= npm run build"
+  publish = "build"
+
+ [[redirects]]
+  from = "https://christinetrac.dev"
+  to = "https://www.christinetrac.dev"
