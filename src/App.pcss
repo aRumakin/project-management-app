@@ -1,0 +1,29 @@
+#app {
+  @apply flex flex-col min-h-screen bg-pattern justify-between;
+}
+
+.container {
+  @apply relative px-20 2xl:px-6 ;
+}
+
+.content {
+  @apply flex flex-col items-center flex-initial overflow-auto;
+  flex: 1 0 auto;
+}
+
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: transparante;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #C09899;
+  border-radius: 5px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #C09899 #FBF1ED;
+}

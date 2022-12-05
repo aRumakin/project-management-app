@@ -1,0 +1,46 @@
+.modal-overlay {
+  @apply flex flex-col w-full items-center justify-center fixed bottom-0 top-0 right-0 left-0 bg-slate-700 bg-opacity-50 z-10 px-2;
+}
+
+.modal-inner {
+  @apply flex flex-col bg-white px-2 py-3 shadow-xl rounded-xl fixed left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-10;
+  width: 90%;
+  max-width: 30rem;
+
+  & .modal-close {
+    @apply flex justify-end;
+
+    & .modal-close-bttn {
+      @apply text-white cursor-pointer;
+    }
+  }
+
+  & .modalform {
+    @apply flex flex-col items-center w-full px-2;
+
+    & .modalform-header {
+      @apply text-black text-xl;
+    }
+
+    & .modalform-item {
+      @apply w-full text-center py-3;
+
+      .modalform-input {
+        @apply border-zinc-500 w-full focus:border-amber-500 outline-0 rounded px-2;
+        border-width: 3px;
+      }
+
+      & .modalform-button {
+        @apply bg-amber-500 px-4 py-2 rounded cursor-pointer w-full h-12 text-white text-xl font-bold shadow-3xl hover:scale-95 transition-all duration-200;
+      }
+
+      & .error-field {
+        @apply h-3 text-red-400;
+      }
+
+      & .modalform-footer-link {
+        @apply px-2 text-amber-500 font-bold underline;
+      }
+    }
+  }
+}

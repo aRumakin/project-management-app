@@ -1,0 +1,24 @@
+.task-wrapper {
+  @apply flex justify-between items-center mb-2 relative;
+
+  & .task-inner {
+    @apply flex justify-between w-full bg-white shadow-sm rounded-sm pl-2 items-start pt-1;
+    min-height: 2rem;
+  }
+
+  & .task-content {
+    @apply w-full cursor-pointer;
+  }
+
+  & .task-bttn {
+    @apply text-[#787878];
+  }
+
+  & .task-buttons {
+    @apply flex;
+  }
+
+  & .task-button-icon {
+    @apply w-6 h-6 hover:text-warning-500 active:text-warning-500 transition-all duration-200;
+  }
+}

@@ -1,0 +1,52 @@
+.column {
+  @apply w-60 min-h-fit flex flex-col justify-between items-start mr-3 mb-3 p-3 pb-1 bg-lightcolor-500 shadow-md rounded-2xl relative max-h-full;
+  
+  & .column-body {
+    @apply flex flex-col w-full pb-3 overflow-y-auto;
+  }
+  
+  & .easy-edit-column-title.easy-edit-inline-wrapper {
+    @apply flex flex-row;
+  }
+  
+  & .easy-edit-column-title .easy-edit-button-wrapper {
+    @apply flex flex-row;
+  }
+  
+  & .column-title,
+  .easy-edit-column-title {
+    @apply block w-full h-8 font-semibold text-xl text-secondary-500 border-b-2 border-secondary-500 pb-8 pr-6 mb-3 truncate;
+  }
+
+  & .easy-edit-column-title input {
+    @apply outline-none;
+  } 
+
+  & .easy-edit-column-title.easy-edit-hover-on {
+    @apply font-semibold not-italic;
+  }
+
+  & .easy-edit-column-title .easy-edit-button-wrapper {
+    @apply w-1/3 z-20  bg-lightcolor-500 pr-0;
+  }
+
+  & .easy-edit-column-title .easy-edit-button {
+    @apply m-0 p-0;
+  }
+
+  & .column-bttn {
+    @apply text-lg text-chocolate-500 font-medium block w-full hover:text-secondary-500 transition-all duration-200;
+  }
+
+  & .column-buttons {
+    @apply text-center w-full;
+  }
+
+  & .column-del {
+    @apply absolute top-3 right-3;
+  }
+
+  & .board-del-icon {
+    @apply w-6 h-6 text-chocolate-500 hover:text-secondary-500 transition-all duration-200;
+  }
+}

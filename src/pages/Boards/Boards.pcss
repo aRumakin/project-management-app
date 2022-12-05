@@ -1,0 +1,59 @@
+.boards {
+  @apply flex flex-col items-center my-12 w-full;
+
+  & .boards-heading {
+    @apply w-fit pl-20 pr-8 py-2 mb-6 bg-additional-500 text-xl  text-white font-semibold rounded-tr-xl rounded-br-xl z-50 -translate-x-20 uppercase shadow-3xl;
+  }
+
+  & .boards_wrapper {
+    @apply flex flex-row items-start justify-start;
+  }
+
+  & .board-list {
+    @apply w-full flex flex-row flex-wrap;
+  }
+
+  & .board-list li {
+    @apply w-64 h-48 min-h-fit;
+  }
+
+  & .board-item {
+    @apply p-2 bg-primary-400 shadow-4xl rounded-2xl relative mr-6 mb-3 hover:bg-primary-500;
+
+    & .board-content {
+      @apply flex flex-col;
+
+      & .board-top {
+        @apply flex justify-between items-center mb-2;
+
+        & .board-owner {
+          @apply pr-3 text-white font-normal text-sm truncate;
+        }
+
+        & .board-buttons {
+          @apply flex items-center;
+        }
+      }
+
+      & .board-title {
+        @apply text-additional-300 font-bold text-lg uppercase border-b-2 border-additional-300 pb-2 mt-1 truncate;
+      }
+
+      & .board-description {
+        @apply text-white mt-2 font-normal text-clip h-16 overflow-hidden leading-5;
+      }
+
+      & .board-button-icon {
+        @apply w-6 h-6 text-white hover:text-additional-300 transition-all duration-200 mx-1;
+      }
+    }
+  }
+
+  & .board-button {
+    @apply flex justify-center bg-primary-500 bg-opacity-30 hover:bg-additional-300 hover:bg-opacity-60 transition-all duration-200 shadow-md rounded-2xl text-chocolate-500 font-semibold text-xl uppercase place-self-start;
+
+    & .board-button-add {
+      @apply w-full h-full;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.search-wrapper {
+  @apply text-zinc-800 mr-4 xs:hidden;
+}
+
+.search-input {
+  @apply font-normal rounded-md leading-10 px-3 shadow-4xl w-72 sm:w-44;
+}
+
+.search-output {
+  @apply absolute shadow-3xl border-transparent z-10 mx-0 px-4 pt-3 -mt-1 bg-white max-h-48 overflow-y-auto;
+  min-height: 14rem;
+  min-width: 18rem;
+
+  & .search-empty {
+  }
+
+  & .search-results {
+    @apply flex my-1 shadow-sm;
+
+    & .result-title {
+      @apply bg-amber-500 rounded-md shadow-md px-3 text-white;
+    }
+
+    & .result-description {
+      @apply px-3;
+    }
+
+    & .result-divider {
+      @apply ml-3;
+    }
+  }
+}

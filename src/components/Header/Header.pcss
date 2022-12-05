@@ -1,0 +1,72 @@
+.header {
+  @apply sticky flex top-0 w-full h-20 lg:h-16 bg-primary-500 text-white font-bold text-lg z-50 justify-end shadow-inner;
+
+  & .header-wrapper {
+    @apply w-full h-full flex items-center justify-end relative;
+  }
+
+  & .app-logo {
+    @apply w-28 lg:w-24 xs:w-20 absolute h-6 top-0 left-0;
+  }
+
+  & .header-items {
+    @apply flex justify-end items-center w-full;
+  }
+
+  & .nav {
+    @apply block justify-end transition-all duration-500 lg:z-10 lg:h-0 lg:absolute lg:right-0 lg:w-0;
+  }
+
+  & .nav > .nav-list {
+    @apply lg:flex-col lg:hidden lg:w-full;
+  }
+
+  & .nav_visible {
+    @apply absolute right-0 top-0 w-2/3 pt-32 min-h-screen bg-primary-500 bg-opacity-70 duration-500 z-10;
+  }
+
+  & .nav_visible > .nav-list {
+    @apply flex flex-col transition-all duration-500 space-y-3 space-x-0;
+  }
+
+  & .nav_visible > .nav-list * a {
+    @apply text-center;
+  }
+
+  & .nav-list {
+    @apply flex w-full justify-end space-x-6 px-4 lg:space-x-4 items-center;
+  }
+
+  & .nav-button {
+    @apply bg-additional-500 last-of-type:bg-secondary-500 shadow-4xl rounded-lg hover:scale-95 transition-all duration-200;
+  }
+
+  & .nav-button > a {
+    @apply w-full py-2 px-6 inline-block uppercase lg:text-base;
+  }
+}
+
+.hamburger-react {
+  @apply hidden lg:inline-block z-50;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: visibility 0.3s, opacity 0.3s;
+  z-index: 0;
+}
+
+.overlay.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay.visible {
+  visibility: visible;
+  opacity: 100%;
+}

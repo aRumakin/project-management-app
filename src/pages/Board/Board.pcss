@@ -1,0 +1,28 @@
+.board {
+  @apply w-full mt-10;
+
+  & .board-wrapper {
+    @apply px-20 overflow-x-auto min-h-fit 2xl:pl-6;
+  }
+
+  & .board-heading {
+    @apply pl-20 pr-8 py-2 mb-6 bg-additional-500 rounded-tr-xl rounded-br-xl z-50 flex flex-row items-center font-semibold shadow-3xl truncate w-fit 2xl:pl-6 md:flex-col md:items-start;
+    max-width: 95vw;
+  }
+
+  & .board-crumbs {
+    @apply text-lg underline lowercase text-chocolate-500 flex flex-row items-center;
+  }
+
+  & .board-crumbs > a {
+    @apply hover:text-white transition-all duration-200;
+  }
+
+  & .board-title {
+    @apply text-xl font-semibold text-white uppercase;
+  }
+
+  & .board-description {
+    @apply text-chocolate-500 truncate w-full;
+  }
+}

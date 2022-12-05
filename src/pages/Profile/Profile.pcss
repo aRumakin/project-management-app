@@ -1,0 +1,34 @@
+.profile {
+  @apply flex flex-col items-center my-auto px-6 w-full md:px-2;
+
+  & .profile-heading {
+    @apply text-2xl text-center;
+  }
+}
+.profile-form {
+  @apply flex flex-col bg-white px-2 py-3 shadow-xl rounded;
+  width: 90%;
+  max-width: 30rem;
+  min-height: 25rem;
+
+  & .profile-item {
+    @apply w-full text-center py-3;
+
+    .profile-input {
+      @apply border-zinc-500 w-full focus:border-amber-500 outline-0 rounded px-2 h-12;
+      border-width: 3px;
+    }
+
+    & .profile-button {
+      @apply bg-amber-500 px-4 py-2 rounded cursor-pointer w-full h-12 text-white text-xl font-bold shadow-3xl hover:scale-95 transition-all duration-200;
+    }
+
+    & .profile-button.delete-button {
+      @apply bg-warning-500;
+    }
+
+    & .error-field {
+      @apply h-3 text-red-400;
+    }
+  }
+}

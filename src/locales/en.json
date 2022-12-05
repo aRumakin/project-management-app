@@ -1,0 +1,166 @@
+{
+  "HEADER": {
+    "NEW": "+ New Board",
+    "SEARCH": "Search",
+    "PROFILE": "Profile",
+    "MAIN": "Main",
+    "BOARDS": "Boards"
+  },
+  "AUTH": {
+    "LOG_IN": "Sign in",
+    "SIGN_UP": "Sign up",
+    "SIGN_OUT": "Sign out"
+  },
+  "SIGN_IN": {
+    "HEADING": "Enter your account",
+    "LOGIN": "Login",
+    "PASSWORD": "Password",
+    "SIGN_IN": "SIGN IN",
+    "BOTTOM_TEXT": "Haven’t got account yet?",
+    "BOTTOM_LINK": "SIGN UP!"
+  },
+  "SIGN_UP": {
+    "HEADING": "Create new account",
+    "NAME": "Name",
+    "NAME_WRONG": "Use only letters(EN)",
+    "NAME_MIN": "At least 3 letters",
+    "ENTER_NAME": "Enter name",
+    "LOGIN": "Login",
+    "LOGIN_WRONG": "4-20 letters(EN) or numbers",
+    "ENTER_LOGIN": "Enter login",
+    "PASSWORD": "Password",
+    "PASSWORD_MIN": "At least 8 characters",
+    "ENTER_PASSWORD": "Enter password",
+    "SIGN_UP": "SIGN UP",
+    "BOTTOM_TEXT": "Already with us?",
+    "BOTTOM_LINK": "Sign in!"
+  },
+  "WELCOME": {
+    "WELCOME": "Kanban board for teams to organize their work",
+    "DESCR": "Collaborate, manage projects, and reach new productivity peaks. Accomplish it all with RS Project Management App",
+    "HEADING1": "PROJECT",
+    "HEADING2": " management",
+    "HEADING3": " SYSTEM",
+    "DESCR_P1": "The task management system, or task manager, is a service that allows you to collect all work tasks in a single space. A simple and intuitive interface will allow you to create task lists, as well as drag and drop cards between columns, changing their status.",
+    "DESCR_P2": "The task manager will help to:",
+    "DESCR_POINT_1": "structure and make the company's work more transparent;",
+    "DESCR_POINT_2": "plan the work on the project",
+    "DESCR_POINT_3": "organize communication between project participants;",
+    "DESCR_POINT_4": "accelerate the onboarding of new employees.",
+    "HEADING_VIDEO": "How to use the app",
+    "HEADING_TEAM": "Our team"
+  },
+  "PROFILE": {
+    "EDIT": "EDIT PROFILE",
+    "SAVE": "SAVE",
+    "DELETE": "DELETE MY ACCOUNT",
+    "SURE": "Are you sure? This action is irreversible!",
+    "OK": "OK",
+    "CANCEL": "Cancel",
+    "UPD_OK": "Profile updated",
+    "DELETE_OK": "Profile deleted"
+  },
+  "BOARD": {
+    "OWNER": "created by",
+    "BOARD": "BOARD",
+    "BOARDS": "YOUR BOARDS",
+    "BOARDS_LIST": "List of boards",
+    "ADD": "ADD NEW BOARD",
+    "EDIT": "EDIT",
+    "DEL": "DELETE",
+    "NOT_EXIST": "Board does not exist",
+    "TO_BOARDS": "Back to yours boards"
+  },
+  "CREATE_BOARD": {
+    "HEADING": "Create board",
+    "NAME": "Board name",
+    "REQUIRED_NAME": "Enter board name",
+    "DESCRIPTION": "Description",
+    "REQUIRED_DESCRIPTION": "Enter description",
+    "SUBMIT": "Create"
+  },
+  "EDIT_BOARD": {
+    "HEADING": "Change board info",
+    "NAME": "Board name",
+    "REQUIRED_NAME": "Enter board name",
+    "DESCRIPTION": "Description",
+    "REQUIRED_DESCRIPTION": "Enter description",
+    "SUBMIT": "Update"
+  },
+  "TOASTER": {
+    "LOGGED_OUT": "Logged out...",
+    "LOGGED_IN": "Greetings, ",
+    "SERV_ERR": "Server error...",
+    "BAD_REQUEST": "Bad request",
+    "AUTH_ERR": "Incorrect login or password",
+    "AUTH_OK": "Greetings",
+    "REG_ERR": "Login already exist",
+    "REG_OK": "Registration succesful",
+    "SUCCESS_COL": "Columns order was updated",
+    "SUCCESS_TASK": "Tasks order was updated"
+  },
+  "404": {
+    "ERROR": "Error 404",
+    "NOT_FOUND": "Page not found"
+  },
+  "TASKS": {
+    "ADD": "+ Add task",
+    "ADD_COL": "+ ADD COLUMN",
+    "REVERSE": "REVERSE COLUMN"
+  },
+  "CONFIRM": {
+    "QUESTION": "Do you really want to delete this",
+    "DELETE": "DELETE",
+    "CANCEL": "CANCEL",
+    "TASK": "task",
+    "COLUMN": "column",
+    "BOARD": "board",
+    "ACCOUNT": "account"
+  },
+  "CREATE_TASK": {
+    "HEADING": "New task",
+    "SUBMIT": "CREATE",
+    "NAME": "Name",
+    "DESCRIPTION": "Description",
+    "REQUIRED_NAME": "Enter task name",
+    "REQUIRED_DESCRIPTION": "Enter description"
+  },
+  "EDIT_TASK": {
+    "HEADING": "Edit task",
+    "SUBMIT": "Save",
+    "NAME": "Name",
+    "DESCRIPTION": "Description",
+    "REQUIRED_NAME": "Enter task name",
+    "REQUIRED_DESCRIPTION": "Enter description"
+  },
+  "CREATE_COLUMN": {
+    "HEADING": "New column",
+    "SUBMIT": "CREATE",
+    "NAME": "Name",
+    "REQUIRED_NAME": "Enter column name"
+  },
+  "MEMBER_A_RUMAKIN": {
+    "NAME": "Andrei Rumakin",
+    "POINT1": "Team-lead",
+    "POINT2": "Authorization",
+    "POINT3": "Drag-n-drop",
+    "POINT4": "Localization"
+  },
+  "MEMBER_T_RUSAK": {
+    "NAME": "Tatsiana Rusak",
+    "POINT1": "Design",
+    "POINT2": "Layout",
+    "POINT3": "Stylization of components",
+    "POINT4": "Adaptive"
+  },
+  "MEMBER_A_KOMISSAROV": {
+    "NAME": "Andrey Komissarov",
+    "POINT1": "Server deploy",
+    "POINT2": "Basic structure of the application",
+    "POINT3": "API requests"
+  },
+  "SEARCH": {
+    "PLACEHOLDER": "Search...",
+    "NOT_FOUND": "Nothing found"
+  }
+}

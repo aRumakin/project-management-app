@@ -1,0 +1,35 @@
+.footer {
+  @apply w-full bg-primary-500 text-white py-2;
+
+  & .footer__wrapper {
+    @apply flex flex-row w-full items-center lg:flex-col lg:space-x-0 lg:space-y-2;
+  }
+
+  & .footer__rss {
+    @apply w-1/6 lg:min-w-fit;
+  }
+
+  & .footer__team {
+    @apply w-4/6 flex justify-center lg:w-full;
+  }
+
+  & .footer__rss > img {
+    @apply h-8 w-auto;
+  }
+  
+  & .footer__gh_logo {
+    @apply h-8 sm:hidden;
+  }
+
+  & .footer__team-list {
+    @apply flex flex-row justify-center;
+  }
+
+  & .footer__team-member {
+    @apply  inline-block px-4 py-1 border-r-2 last-of-type:border-r-0 sm:text-center;
+  }
+
+  & .footer__year {
+    @apply w-1/6 text-3xl font-bold flex justify-end lg:max-w-fit md:w-full;
+  }
+}
